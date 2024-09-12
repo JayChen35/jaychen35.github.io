@@ -3,6 +3,8 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
+import ResumeButton from '@/components/ResumeButton';
+
 
 const MAX_DISPLAY = 5
 
@@ -19,7 +21,8 @@ export default function Home({ posts }) {
           </p>
         </div>
       </div>
-      {posts.length > MAX_DISPLAY && (
+      <ResumeButton />
+      {/* {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
             href="/blog"
@@ -29,7 +32,7 @@ export default function Home({ posts }) {
             All Posts &rarr;
           </Link>
         </div>
-      )}
+      )} */}
       {siteMetadata.newsletter?.provider && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />

@@ -41,6 +41,7 @@ input:-webkit-autofill:focus {
 
 .katex-display {
   overflow: auto hidden;
+  overflow-x: hidden;  /* Avoids showing a horizontal scroll bar */
 }
 
 .content-header-link {
