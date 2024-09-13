@@ -18,7 +18,7 @@ const projectsData: Project[] = [
     description: `A trip to Taiwan, candid shots of my cozy college town of Ann Arbor, and more: 
     I'm trying to build my filmmaking portfolio, and here's a peak at my work so far!`,
     imgSrc: '/static/images/filmmaking_24.png',
-    href: '/blog/code-sample',
+    href: '/blog/2024-videography',
   },
 ]
 
