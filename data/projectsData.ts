@@ -7,19 +7,17 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Propulsion Fluids Notes',
+    description: `My attempt at compiling everything I've learned about designing fluids systems
+    for stage propulsion systems during my time at SpaceX and MASA. I hope it's useful!`,
+    imgSrc: '/static/images/starship.png',
+    href: 'https://jaychen35.github.io/propulsion_notes/',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
+    title: '2024 Videography Portfolio',
+    description: `A trip to Taiwan, candid shots of my cozy college town of Ann Arbor, and more: 
+    I'm trying to build my filmmaking portfolio, and here's a peak at my work so far!`,
+    imgSrc: '/static/images/filmmaking_24.png',
     href: '/blog/code-sample',
   },
 ]

@@ -1,0 +1,34 @@
+---
+title: Actually Useful Vim
+date: '2024-09-11'
+tags: ['vim', 'code', 'guides']
+draft: false
+summary: A compiled list of Vim commands that I've actually used a ton!
+---
+
+A list of Vim commands that you'll actually use.
+
+# Movement
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| `h j k l` |	Move the cursor up, down, left, right
+| `e w` |	Move forwards to end of word, move forwards to the start of a word
+| `b` | 	Move backwards to start of word
+| `i a` | Insert/append, goes to the left/right side of current character
+| `I A` | Insert at the beginning of the line, append at the end of the line
+| `o O` |	Insert line below/above
+| `%` | Jump to matching parenthesis/quote
+| `f[CHAR]` |	Jumps to next occurrence of [CHAR]
+| `[NUMBER]G` | Jumps to line [NUMBER]
+| `g_` | Jumps cursor to the last non-whitespace character in the line
+
+# Editing
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| `d` | Deletes. Can combine with movement, i.e. dw deletes the word to the right of the cursor, db deletes to the left of the cursor
+| `x X` |	Deletes single character before/after cursor
+| `daw` | Deletes the entire word under the cursor
+| `c[i/a][DELIMITER]` | Select everything inside DELIMITER (such as `""`  or `()`, and DELIMITER = `w` means current word), and replace it (enters INSERT mode). Using i means inner, i.e. the word inside the delimiter, while a will include the delimiter
+| `v[i/a][DELIMITER]` | Same thing as above but selects (visually) instead of changing the word 

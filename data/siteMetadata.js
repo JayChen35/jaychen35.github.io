@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Jason Chen',
   author: 'Jason Chen',
   headerTitle: 'Jason\'s Home',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'I\'m Jason // 彥宇. Welcome to my personal page!',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://jaychen35.github.io/',
