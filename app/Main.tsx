@@ -5,7 +5,6 @@ import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
 import ResumeButton from '@/components/ResumeButton'
 
-
 const MAX_DISPLAY = 5
 
 export default function Home({ posts }) {
