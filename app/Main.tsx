@@ -24,11 +24,11 @@ export default function Home({ posts }) {
       <AuthorLayout content={mainContent}>
         <MDXLayoutRenderer code={author.body.code} />
       </AuthorLayout>
-      {siteMetadata.newsletter?.provider && (
+      {/* {siteMetadata.newsletter?.provider && (
         <div className="flex items-center justify-center pt-4">
           <NewsletterForm />
         </div>
-      )}
+      )} */}
     </>
   )
 }
