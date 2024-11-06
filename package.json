@@ -72,6 +72,6 @@
   },
   "packageManager": "yarn@3.6.1",
   "overrides": {
-    "micromatch": "^4.0.5"
+    "micromatch": "^4.0.8"
   }
 }

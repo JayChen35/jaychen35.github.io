@@ -2,13 +2,13 @@
 const siteMetadata = {
   title: 'Jason Chen',
   author: 'Jason Chen',
-  headerTitle: 'Jason\'s Home',
-  description: 'I\'m Jason // 彥宇. Welcome to my personal page!',
+  headerTitle: "Jason's Home",
+  description: "I'm Jason // 彥宇. Welcome to my personal page!",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://jaychen35.github.io/',
   siteRepo: 'https://github.com/JayChen35/JayChen35.github.io',
-  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
+  siteLogo: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   // mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'address@yoursite.com',
